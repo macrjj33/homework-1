@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+    <html>
+      <head>
+        <title>About Me</title>
+        <meta charset="utf-8">
+       <meta name="viewport" content="width=device-width, initial-scale=1">
+       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+       <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+       <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+      </head>
+      <body>
+      	<div class="container-fluid">
+        	<h1>
+        		Ma, Ruijiang
+        	</h1>
+        </div>
+        <div class="card">
+        <div class="card-body">I was born in China and came to the U.S. for years ago. I'm studying CS because I want to make more money when I graduate.</div>
+        </div>
+        <h2>My Professional Profile</h2>
+        <p><a class="btn btn-primary" href="https://github.com/macrjj33" role="button">My Github account</a></p>
+        <img src="https://www.topchinatravel.com/pic/china-tour-pic/xian/xian-city-view-02.jpg" alt="It is wher I'm from." width=600px class="rounded-circle">
+        <p>(Here is a picture of myhometone.)</p>
+        <h3>My Favorite Projects</h3>
+        <table class="table">
+        	<thead class="thead-dark">
+				<tr>
+					<th>Projects</th>
+					<th>Technologies Used</th>
+				</tr>
+        	</thead>
+        	<tbody>
+				<tr>
+					<td>Search Engine</td>
+					<td>Java</td>
+				</tr>
+				<tr>
+					<td>College Fpportunity Fund extension</td>
+					<td>C#</td>
+				</tr>
+				<tr>
+					<td>Bitcode Translater</td>
+					<td>Java</td>
+				</tr>
+        	</tbody>
+        </table>
+        <div class="container-flush">
+			<div class="row">
+				<div class="col">
+					<div class="accordion" id="accordionCountries">
+					  <div class="card">
+						<div class="card-header" id="countryHeading">
+						  <h5 class="mb-0">
+							<button class="btn btn-link" type="button" data-toggle="collapse" data-target="#countriesTravelled" aria-expanded="true" aria-controls="countriesTravelled">
+							  Countries Travelled
+							</button>
+						  </h5>
+						</div>
+
+						<div id="countriesTravelled" class="collapse" aria-labelledby="countryHeading" data-parent="#accordionCountries">
+						  <div class="card-body">
+							 <ul class="list-group">
+								<li class="list-group-item">China, United States, Korean</li>
+							</ul>
+							</div>
+						</div>
+					  </div>
+					</div>
+				</div>
+				<div class="col">
+					<div class="accordion" id="accordionInterests">
+					  <div class="card">
+						<div class="card-header" id="interestHeading">
+						  <h5 class="mb-0">
+							<button class="btn btn-link" type="button" data-toggle="collapse" data-target="#myInterests" aria-expanded="true" aria-controls="myInterests">
+							  My Interests
+							</button>
+						  </h5>
+						</div>
+
+						<div id="myInterests" class="collapse" aria-labelledby="interestHeading" data-parent="#accordionInterests">
+						  <div class="card-body">
+							 <ul class="list-group">
+								<li class="list-group-item">Watching Movies</li>
+								<li class="list-group-item">Hiking</li>
+								<li class="list-group-item">Programming</li>
+							</ul>
+							</div>
+						</div>
+					  </div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+		  Click here.
+		</button>
+		<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+		  <div class="modal-dialog" role="document">
+			<div class="modal-content">
+			  <div class="modal-header">
+				<h5 class="modal-title" id="exampleModalLabel">I'm Iron Man!</h5>
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+				  <span aria-hidden="true">&times;</span>
+				</button>
+			  </div>
+			  <div class="modal-body">
+				<img src="https://vignette.wikia.nocookie.net/marvelcinematicuniverse/images/3/35/IronMan-EndgameProfile.jpg/revision/latest?cb=20190423175213" alt="I'm IronMan" width=465px>
+			  </div>
+			  <div class="modal-footer">
+				<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+			  </div>
+			</div>
+		  </div>
+		</div>
+      </body>
+    </html>
